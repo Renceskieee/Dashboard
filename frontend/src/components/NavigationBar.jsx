@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Logo from "./../assets/Logo.png"
+import Logo from "./../assets/savings-icon.png"
 import RightArrow from "./../assets/icons/rightArrow.svg"
 import { motion } from "framer-motion"
 import {
@@ -53,12 +53,12 @@ function NavigationBar() {
         >
             <div className='logo-div flex space-x-3 items-center'>
                 <img src= {Logo} />
-                <span className={isExpanded ? "block": "hidden"}>Money Tracker</span>
+                <span className={isExpanded ? "block": "hidden"}>Money Bank</span>
             </div>
 
             <div 
                 onClick={() => setIsExpanded(!isExpanded)} 
-                className='w-5 h-5 bg-red-300 rounded-full absolute -right-[10.5px] top-14 flex items-center justify-center'
+                className='w-5 h-5 bg-red-600 rounded-full absolute -right-[10.5px] top-14 flex items-center justify-center'
             >
                 <img src= {RightArrow} className='w-[5px]' />
             </div>

@@ -36,10 +36,10 @@ export const options = {
 };
 
 const labels = [
-    "Jul",
-    "Aug",
-    "Sep",
-    "Oct"
+    "Mar",
+    "Apr",
+    "May",
+    "June"
 ];
 
 export const data = {
